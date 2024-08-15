@@ -1,6 +1,6 @@
 <a name="top"></a>
 
-# Cherry Cloud
+# Knit3D
 
 <img src="/static/images/knit.jpg" alt="" width="100px" height="100px" />
 
@@ -21,8 +21,8 @@ Knit 3d is a full stack web app where users can see their knit projects in 3d.
 - [Description](#desc)
 - Index
 - [Keys](#keys)
-- [Technologies and Requirements](#tech)
-- [Data Model](#model)
+<!-- - [Technologies and Requirements](#tech)
+- [Data Model](#model) -->
 
 
 <a name="keys"></a>
