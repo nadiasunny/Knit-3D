@@ -34,6 +34,7 @@ Knit 3d is a full stack web app where users can see their knit projects in 3d.
 - User can input needle size, yarn size, rows, type of stitch
 - User can compare two projects
 - User can see a visual representation(CAD style) of their knit project
+- User can 
 
 
 [Back to the Table of Contents](#index)
