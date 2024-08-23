@@ -6,16 +6,16 @@ document.getElementById('toDesired').onsubmit = calculateFinalWL
 function calculateFinalWL(event){
     event.preventDefault();
     
-    let rowsToAchieveWidth = document.getElementById('gaugeWid');
-    let rowstoAchiceLength = document.getElementById('gaugeLen');
+    let rowsToAchieveWidth = Number(document.getElementById('gaugeWid').value);
+    let rowstoAchiceLength = Number(document.getElementById('gaugeLen').value);
 
-    let currentLength = document.getElementById('currentLen');
-    let desiredLength = document.getElementById('desiredLen');
-    let numOfRows = (Num(currentLength)*Num(rowstoAchiceLength))/4;
-    let finalNumOfRows = (Num(desiredLength)*Num(rowstoAchiceLength))/4;
+    let currentLength = Number(document.getElementById('currentLen').value);
+    let desiredLength = Number(document.getElementById('desiredLen').value);
+    let numOfRows = ((currentLength)*(rowstoAchiceLength))/4;
+    let finalNumOfRows = ((desiredLength)*(rowstoAchiceLength))/4;
 
     let rowsToDesiredLength = finalNumOfRows - numOfRows;
     console.log(rowsToDesiredLength);
-    document.getElementById('rowsLeft').value = rowsToDesiredLength;
+    document.getElementById('rowsLeft').innerHTML = rowsToDesiredLength;
     //let finalWidth = 
 }
